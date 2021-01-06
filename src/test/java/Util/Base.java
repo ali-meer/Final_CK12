@@ -17,7 +17,7 @@ public class Base {
         driver.manage().deleteAllCookies();
         Thread.sleep(1000);
         driver.get(baseURL);
-
+        driver.get("fdfdf");
         return driver;
     }
 }
