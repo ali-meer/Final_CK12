@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CK12Final" />
+        <module name="Final_CK12" />
       </profile>
     </annotationProcessing>
   </component>
