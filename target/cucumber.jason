@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-07T15:13:39.761Z",
+        "line": 12,
+        "name": "Login to the App",
+        "description": "",
+        "id": "login-functionality;login-to-the-app;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat OR.loginOR.getToastCloseBtn(loginOR.java:54)\r\n\tat StepDefinition.CommonSteps.ck12_is_launched(CommonSteps.java:46)\r\n\tat ✽.ck12 is launched(classpath:feature/Login.feature:4)\r\n",
+              "duration": 17806000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "ck12 is launched",
+            "match": {
+              "location": "StepDefinition.CommonSteps.ck12_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user clicks on SignIn button",
+            "match": {
+              "location": "StepDefinition.CommonSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters username \"mzakkar@gmail.co.uk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mzakkar@gmail.co.uk\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.CommonSteps.user_enters_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enter password \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.CommonSteps.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks login buttton",
+            "match": {
+              "location": "StepDefinition.CommonSteps.user_clicks_login_buttton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "SignIn should be \"successful\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"successful\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.CommonSteps.sign_in_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "classpath:feature/Login.feature",
+    "tags": []
+  }
+]
