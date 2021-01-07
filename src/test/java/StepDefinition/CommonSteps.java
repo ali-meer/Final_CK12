@@ -44,7 +44,7 @@ public class CommonSteps extends Base {
         Thread.sleep(1000);
         base.driver.get(prop.getProperty("baseURL"));
         Thread.sleep(3000);
-        //login.getToastCloseBtn();
+        login.getToastCloseBtn();
 
     }
 
